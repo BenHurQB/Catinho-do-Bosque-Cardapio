@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardapio Cantinho do Bosque</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./script.js"> </script>
+    <!--Link do arquivo manifest.json-->
+    <link rel="manifest" href="manifest.json">
+
+    <!--Metas do pwa da atividade de Geraldo-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="msapplication-TileImage" content="AppImages/ios/144.png">
+    <meta name="msapplication-TileColor" content="#31506F">
+    <meta name="theme-color" content="#4D5360" />
+    <link rel="shortcut icon" sizes="192x192" href="AppImages/ios/192.png">
+    <link rel="shortcut icon" sizes="128x128" href="AppImages/ios/128.png">
+  
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="PWA Teste">
+    <link rel="apple-touch-icon" href="AppImages/ios/144.png">
+    <!--<link rel="apple-touch-icon" href="touch-icon-iphone.png">-->
+    <link rel="apple-touch-icon" sizes="152x152" href="AppImages/ios/152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="AppImages/ios/180.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="AppImages/ios/167.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="AppImages/ios/192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+  
+    <link rel="icon" type="image/png" href="AppImages/ios/144.png">
+</head>
+<body>
+    <header class="header">
+        
+        
+        <div class="logo">
+          <img src="./imagens/LOGO-BOSQUE.png" alt="Logo" class="logo-img" width="1rem" height="1rem">
+        </div>
+        <h1 class="textoCardapio">CARDÁPIO</h1>
+        
+    </header>
+
+    
+
+    <main class="texto">
+        <button onclick="topFunction()" id="myBtn" title="Voltar ao topo" style="display: flex; justify-content: center; align-items: center;">
+            <img src="./imagens/pra-cima.png" alt="imagem seta para cima" width="25" height="25" style="filter: invert(1);"> 
+          </button>
+          <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="./imagens/Coxinha.jpeg" class="w-100" alt="foto de coxinhas"  width="80%" height="80%">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">SALGADOS</h5>
+                <ul class="precos">
+                <li>Coxinha Frango<span>R$  8,50</span></li>
+                <li>Coxinha Frango com Catupiry<span>R$  9,50</span></li>
+                <li>Empada Frango<span>R$  8,50</span></li>
+                <li>Empada Camarão<span>R$  9,50</span></li>
+                <li>Empada Queijo do Reino<span>R$  9,50</span></li>
+                <li>Quiche Alho Poró e Bacon<span>R$ 12,00</span></li>
+                <li>Quiche Carne Seca<span>R$ 12,00</span></li>
+                <li>Quiche Camarão<span>R$ 14,50</span></li>
+               
+                </ul>
+            </div> 
+            
+        </div>
+         
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="./imagens/Tapioca.jpeg" class="w-100" alt="foto de tapioca" width="80%" height="80%">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+            <h5 class="mt-0">TAPIOCAS</h5>
+            <ul class="precos">
+                <li>Tapioca Coco<span>R$ 10,00</span> </li>
+                <li>Tapioca Queijo<span>     R$ 11,50</span></li>
+                <li>Tapioca Coco e Queijo  <span>           R$ 13,00</span></li>
+                <li>Tapioca Romeu e Julieta <span>          R$ 12,00</span></li>
+                <li>Tapioca Queijo e Doce de Leite<span>R$ 18,00</span></li>
+
+            </ul>
+            </div>
+        </div>
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="./imagens/Costela.jpeg" class="w-100" alt="foto de sanduiche" width="80%" height="80%">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">SANDUÍCHES</h5>
+                <ul class="precos">
+                    <li>Sanduíche de Fraldinha   <span>         R$ 20,00</span></li>
+                    <li class="distincao">(pão ciabata, maionese, rúcula,
+                        tomate seco, fraldinha desfiada e 
+                        cebola na pressão)
+                    </li>
+                    <li>Sanduíche de Charque  <span>             R$ 18,00</span></li>
+                    <li class="distincao">(pão francês, charque desfiada com 
+                        queijo coalho)
+                    </li>
+                    <li>Sanduíche de Costela  <span>             R$ 18,00</span></li>
+                    <li class="distincao">(pão francês ou ciabata e costela)
+
+                    <li>Sanduíche Queijo Quente   <span>          R$ 10,00</span></li>
+                    <li>Sanduíche Misto Quente   <span>           R$ 12,00</span></li>
+                    <li>Sanduíche Mortadela Ouro   <span>           R$ 12,00</span></li>
+        
+        
+                </ul>
+                </div>
+            </div>
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="./imagens/CuzcuzQueijo.jpeg" class="w-100" alt="foto de cuzcuz" width="80%" height="80%">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                    <h5 class="mt-0">COMIDAS TÍPICAS DE MILHO</h5>
+                    
+                </h5>
+                <ul class="precos">
+                    
+                    <li>Cuzcuz com Queijo    <span>       R$ 14,00</span></li>
+                    <li>Cuzcuz com Charque e Queijo<span>   R$ 18,00</span></li>
+                    <li>MUnguzá<span>   R$ 10,00</span></li>
+                    <li>Bolo de Milho inteiro<span>   R$ 70,00</span></li>
+                </ul>
+                </div>
+            </div>
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="./imagens/Escondidinho.jpeg" class="w-100" alt="foto de cuzcuz" width="80%" height="80%">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                    <h5 class="mt-0">ESCONDINHOS</h5>
+                    
+                </h5>
+                <ul class="precos">
+                    <li>Escondinho de Charque<span>       R$ 15,00</span></li>
+                    <li>Escondinho de Batata Doce e    <span>       R$ 15,00</span></li>
+                    <li>Costela</li>
+                </ul>
+                </div>
+            </div>
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="./imagens/Sururu.jpeg" class="w-100" alt="foto de cuzcuz" width="80%" height="80%">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                    <h5 class="mt-0">CRUSTÁCEOS</h5>
+                    
+                </h5>
+                <ul class="precos">
+                    <li>Surumarão  <span>       R$ 15,00</span></li>
+                    <li>Sururu    <span>       R$ 12,00</span></li>
+                    <li>Marisco<span>   R$ 12,00</span></li>
+                    
+                </ul>
+                </div>
+            </div>
+            <div class="row g-0 bg-light position-relative">
+                <div class="col-md-6 mb-md-0 p-md-4">
+                <img src="./imagens/Sopas.jpeg" class="w-100" alt="foto de cuzcuz" width="80%" height="80%">
+                </div>
+                <div class="col-md-6 p-4 ps-md-0">
+                    <h5 class="mt-0">SOPAS E CALDOS</h5>
+                    
+                </h5>
+                <ul class="precos">
+                    <li>Sopa Frango, Legumes e  <span>       R$ 15,00</span></li>
+                    <li>Torradas </li>
+                    <li>Sopa Caldo Verde e  Torradas  <span>       R$ 15,00</span></li>
+                    <li>Sopa de Carne e Torradas<span>   R$ 15,00</span></li>
+                    <li>Caldinho Feijão / Peixe <span> R$ 10,00</span></li>
+                    
+                </ul>
+                </div>
+            </div>
+            
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="./imagens/BoloRolo.jpeg" class="w-100" alt="foto de bolo" width="80%" height="80%">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+                <h5 class="mt-0">SOBREMESAS </h5>
+                <ul>
+                
+                        <li>Bolos de pote      <span>                 R$ 10,00</span></li>
+                        <li>Bolos Regionais     <span>                R$  9,00</span></li>
+                        <li>Bolo de Rolo     <span>                   R$  9,00</span></li>
+                        <li>Pudim            <span>                   R$ 10,00</span></li>
+                        <li>Mousse de Limão    <span>                 R$  7,00</span></li>
+                    
+                </ul>
+            
+            </div>
+        </div>
+        <div class="row g-0 bg-light position-relative">
+            <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="./imagens/Sucospolpa.jpeg" class="w-100" alt="foto de suco de frutas" width="80%" height="80%">
+            </div>
+            <div class="col-md-6 p-4 ps-md-0">
+            <h5 class="mt-0">BEBIDAS</h5>
+            <ul>
+                <li>Sucos de Polpas     <span>                R$  8,00</span></li>
+                <li>Mineral c/ou s/ Gás   <span>      R$  3,00</span></li>
+                <li>Água Tônica       <span>                  R$  6,00</span></li>
+                <li>H20                  <span>               R$  6,00</span></li>
+                <li>Refrigerante Lata   <span>                R$  5,50</span></li>
+                <li>Café Expresso     <span>                  R$  8,00</span></li>
+                
+            </ul>
+            
+            </div>
+        </div>
+        <hr>
+        <div class="row g-0 bg-light position-relative">
+            <h5 class="textoRede">Acompanhe nossas redes !!!</h5>
+            <div class="row">
+                <div class="col-md-6 p-0  text-center ">
+                    <a href="https://www.instagram.com/cantinhodobosque_/" class="instagram-link" target="_blank">
+                        <img src="./imagens/instagram (1).png" alt="Icon Instagran" width="40" height="40"><span class="textoInstagram">Siga-nos no Instagram</span>
+                    </a>
+                </div>
+                <div class="col-md-6 p-0  text-center  ">
+                <a href="https://api.whatsapp.com/send/?phone=5581987790899&text&type=phone_number&app_absent=0" class="instagram-link" target="_blank">
+                    <img src="./imagens/whatsapp (1).png" alt="Chamar no whatsapp" width="50" height="50"><span class="textoZap">Contate no WhatsApp</span> 
+                    
+                </a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+       <span class="textoFooter">Volte Sempre  !!!</span>
+    </footer>
+    <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('/service-worker.js').then(reg => {
+            reg.addEventListener('updatefound', () => {
+              // A wild service worker has appeared in reg.installing!
+              newWorker = reg.installing;
+              newWorker.addEventListener('statechange', () => {
+                // Has network.state changed?
+                switch (newWorker.state) {
+                  case 'installed':
+                    if (navigator.serviceWorker.controller) {
+                      // new update available
+                    }
+                    // No update available
+                    break;
+                }
+              });
+            });
+          });
+          let refreshing;
+          navigator.serviceWorker.addEventListener('controllerchange', function () {
+            if (refreshing) return;
+            window.location.reload();
+            refreshing = true;
+          });
+        }
+      </script>
+    
+</body>
+</html>
+

@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root {
+   
+    --bs-green: #ebf7f1;
+    --bs-teal: #011f16;
+    --bs-success: #023b20;
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bs-green);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    height: 10rem;
+  }
+  
+  .logo-img {
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 7rem;
+    height: auto;
+    margin-bottom: 0.2rem;
+  }
+  
+  .textoCardapio{
+    
+    text-align: center;
+    font-family: var(--bs-font-monospace);
+    margin-bottom: 2rem;
+  }
+
+.texto{
+
+  margin-top: 10rem;
+  margin-bottom: 1.5rem;
+ 
+}
+
+
+  ul li {
+    list-style: none;
+    margin-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul li span {
+    
+    text-align: left;
+  }
+  .distincao{
+    font-size: 0.9rem;
+  }
+  #myBtn {
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    right: 2rem;
+    background-color: #011f16;;
+    color: var(--bs-teal);
+    border-radius: 2.0rem;
+    text-align: center;
+    font-size: 1.5rem;
+    z-index: 1000;
+    bottom: 2rem
+  }
+  
+  #myBtn:hover {
+    background-color: #011f16;
+  }
+
+  .text-center{
+
+    margin-top: 2rem;
+  }
+  .textoFinal{
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bs-blue);
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--bs-teal);
+  }
+  .main{
+    margin-bottom: 0.5rem;
+  }
+  footer{
+    
+    padding-top: 0.7rem;
+    margin-bottom: auto;
+    font-family:  var(--bs-font-monospace);
+    background-color: var(--bs-teal);
+    text-align: center;
+    height: 3rem;
+   }
+
+.instagram-link {
+ 
+  color:var(--bs-teal);
+  text-decoration: none;
+}
+
+.textoRede{
+  margin-top: 0.4rem;
+  text-align: center;
+  
+}
+.textoFooter{
+  color: var(--bs-green);
+}
+.textoInstagram, .textoZap{
+  margin-left: 1rem;
+ 
+}
+
+.row{
+  margin-top: 0.1rem;
+}
+hr {
+  border-radius: 0.2rem;
+  border-width: 0.3rem;
+  border-color: var(--bs-success);
+  border-style: solid;
+  margin: 0 1rem;
+}
+
+
+  
+  
